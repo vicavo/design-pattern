@@ -1,0 +1,1 @@
+This directory is all about design pattern study cases.
