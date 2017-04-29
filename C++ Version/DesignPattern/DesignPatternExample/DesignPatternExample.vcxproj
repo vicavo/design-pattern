@@ -185,6 +185,16 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\DesignPatternSrc\Adapter.h" />
+    <ClInclude Include="..\DesignPatternSrc\Bridge.h" />
+    <ClInclude Include="..\DesignPatternSrc\Cmd.h" />
+    <ClInclude Include="..\DesignPatternSrc\Composite.h" />
+    <ClInclude Include="..\DesignPatternSrc\Decorator.h" />
+    <ClInclude Include="..\DesignPatternSrc\Factory.h" />
+    <ClInclude Include="..\DesignPatternSrc\Observe.h" />
+    <ClInclude Include="..\DesignPatternSrc\Proxy.h" />
+    <ClInclude Include="..\DesignPatternSrc\State.h" />
+    <ClInclude Include="..\DesignPatternSrc\Strategy.h" />
     <ClInclude Include="DesignPatternExample.h" />
     <ClInclude Include="DesignPatternExampleDlg.h" />
     <ClInclude Include="Resource.h" />
@@ -192,6 +202,16 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\DesignPatternSrc\Adapter.cpp" />
+    <ClCompile Include="..\DesignPatternSrc\Bridge.cpp" />
+    <ClCompile Include="..\DesignPatternSrc\Cmd.cpp" />
+    <ClCompile Include="..\DesignPatternSrc\Composite.cpp" />
+    <ClCompile Include="..\DesignPatternSrc\Decorator.cpp" />
+    <ClCompile Include="..\DesignPatternSrc\Factory.cpp" />
+    <ClCompile Include="..\DesignPatternSrc\Observe.cpp" />
+    <ClCompile Include="..\DesignPatternSrc\Proxy.cpp" />
+    <ClCompile Include="..\DesignPatternSrc\State.cpp" />
+    <ClCompile Include="..\DesignPatternSrc\Strategy.cpp" />
     <ClCompile Include="DesignPatternExample.cpp" />
     <ClCompile Include="DesignPatternExampleDlg.cpp" />
     <ClCompile Include="stdafx.cpp">

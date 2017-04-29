@@ -33,6 +33,36 @@
     <ClInclude Include="Resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\DesignPatternSrc\Adapter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DesignPatternSrc\Bridge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DesignPatternSrc\Cmd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DesignPatternSrc\Composite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DesignPatternSrc\Decorator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DesignPatternSrc\Factory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DesignPatternSrc\Observe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DesignPatternSrc\Proxy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DesignPatternSrc\State.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DesignPatternSrc\Strategy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DesignPatternExample.cpp">
@@ -42,6 +72,36 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DesignPatternSrc\Adapter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DesignPatternSrc\Bridge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DesignPatternSrc\Cmd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DesignPatternSrc\Composite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DesignPatternSrc\Decorator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DesignPatternSrc\Factory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DesignPatternSrc\Observe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DesignPatternSrc\Proxy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DesignPatternSrc\State.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DesignPatternSrc\Strategy.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

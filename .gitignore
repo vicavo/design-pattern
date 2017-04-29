@@ -1,2 +1,4 @@
 *.idb
 *.db
+*.opendb
+*.tlog
