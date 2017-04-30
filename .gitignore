@@ -3,3 +3,8 @@
 *.opendb
 *.tlog
 *.idb
+*.ipch
+.pdb
+.ilk
+.exe
+Debug
