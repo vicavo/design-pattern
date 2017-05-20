@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CEventDispatcher&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAIAkAAAUAAAAAAABAAAAAEAAAAAAAQQAAA=</HashCode>
+      <FileName>EventSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CArrayIterator&lt;T, Indexer&gt;" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiEAAAAAAAABAAAAAAAEEAAgAAAAAAAIAAAAAAEAAA=</HashCode>
+      <FileName>ArrayIterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CArrayList&lt;TYPE&gt;" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IkIAAEAAEAAAABCgAEAIFAAAAAMAAAAAIAAoAABRAAA=</HashCode>
+      <FileName>ArrayList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IIterable&lt;T&gt;" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAABAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Iterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CNode" Collapsed="true">
+    <Position X="10.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAAAQggAAAEAAAAAIAAAAAAAIAgAAAAEAAQAQBRCA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTypeNode&lt;type&gt;" Collapsed="true">
+    <Position X="10.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAAAAAgAAAEAAAQAIAAAAAAAAAgAAAAEAAAAQAACA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IAdapter&lt;T&gt;" Collapsed="true">
+    <Position X="3.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAAAAAAgAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NodeIterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStackAdpter&lt;T&gt;" Collapsed="true">
+    <Position X="2.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAAAEAAgAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NodeIterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CQueueAdpter&lt;T&gt;" Collapsed="true">
+    <Position X="4.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAAAAAAoAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NodeIterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CNodeForwardIterator&lt;TNode, Indexer, Adpter&gt;" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCEAAAAAAAABBAAAAAAQEAAAAAgAAAAIAAAAAAAAAQ=</HashCode>
+      <FileName>NodeIterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CNodeBackwardIterator&lt;TNode, AdpterIndexer, Adpter&gt;" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAEhAAAAAAAAAAAAACEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>NodeIterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUtilHelper" Collapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAAACAAAAAABAAAAACACAACAEAIAAAAAAAAIAAAA=</HashCode>
+      <FileName>UtilHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GDIRenderImage" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAGAAACABACAAACAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>GDIRender2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GDIRender2D" Collapsed="true">
+    <Position X="7.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAQAAGGAAABAAAACAgAAAQAAgEEAIAEAAAAVAAIA=</HashCode>
+      <FileName>GDIRender2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRenderImageManager" Collapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAEAAAAAAAAAAAAAAEAAAAAAAEgAAAAAAQAAAAAEA=</HashCode>
+      <FileName>IRender2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="CKeyEvent" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAQAAACAA=</HashCode>
+      <FileName>KeyEvent.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CKeyCharEvent" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KeyEvent.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CListenerLink&lt;T&gt;" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAgAAAEgAAAAAAAAAAAAAAAAAAAAEQIAAAAA=</HashCode>
+      <FileName>EventSystem.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CEvent&lt;TPointer&gt;" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAIAAAAAAAAIAAAAAAQA=</HashCode>
+      <FileName>EventSystem.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CMouseMoveEvent" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>MouseEvent.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CMouseButtonEvent" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MouseEvent.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CRenderEvent" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RenderEvent.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CGetIndexLR" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CGetIndexRL" Collapsed="true">
+    <Position X="16" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="IRenderImage" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAgAAAAAAABACAAACABAAAAAAAAQAAAAAAAABAQAA=</HashCode>
+      <FileName>IRender2D.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="IRender2D" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAJIQAAMEAAABEAAACCgAABQIARQEAIAEAAAAVAAIA=</HashCode>
+      <FileName>IRender2D.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RenderFactory" Collapsed="true">
+    <Position X="14.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRender2D.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="CKeyEventDispatcher" Collapsed="true">
+    <Position X="6.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KeyEvent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CKeyEventListener" Collapsed="true">
+    <Position X="16" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KeyEvent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CKeyCharEventDispatcher" Collapsed="true">
+    <Position X="0.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KeyEvent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CKeyCharEventListener" Collapsed="true">
+    <Position X="14.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KeyEvent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CMouseMoveEventDispatcher" Collapsed="true">
+    <Position X="6.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MouseEvent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CMouseButtonEventDispatcher" Collapsed="true">
+    <Position X="0.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MouseEvent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CMouseMoveEventListener" Collapsed="true">
+    <Position X="14.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MouseEvent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CMouseButtonEventListener" Collapsed="true">
+    <Position X="17.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MouseEvent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CRenderEventDispatcher" Collapsed="true">
+    <Position X="3.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RenderEvent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CRenderEventListener" Collapsed="true">
+    <Position X="16" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RenderEvent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RenderImageMap" Collapsed="true">
+    <Position X="14.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRender2D.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RenderImageIter" Collapsed="true">
+    <Position X="17.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRender2D.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RenderImagePair" Collapsed="true">
+    <Position X="16" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRender2D.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="EButtonType" Collapsed="true">
+    <Position X="16" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQBAAAAAAAACAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>MouseEvent.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EButtonState" Collapsed="true">
+    <Position X="14.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAiAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>MouseEvent.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ERenderTime" Collapsed="true">
+    <Position X="17.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAABAAEAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>RenderEvent.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ERenderType" Collapsed="true">
+    <Position X="14.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABCAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>IRender2D.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

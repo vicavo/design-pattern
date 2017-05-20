@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UIPLib", "UIPLib\UIPLib.vcproj", "{A714BC06-47DA-4243-B45B-4C983CA56DF3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UIPPaint", "UIPPaint\UIPPaint.vcproj", "{D8C74B93-F31B-424F-8C9F-CF00E496C1BA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A714BC06-47DA-4243-B45B-4C983CA56DF3} = {A714BC06-47DA-4243-B45B-4C983CA56DF3}
+		{4AF129A5-B8CC-49D7-850B-EB8B51450F17} = {4AF129A5-B8CC-49D7-850B-EB8B51450F17}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UIPTest", "UIPTest\UIPTest.vcproj", "{7C18D6CC-8490-47BD-BFBA-5BD4E7E3F969}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A714BC06-47DA-4243-B45B-4C983CA56DF3} = {A714BC06-47DA-4243-B45B-4C983CA56DF3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UIPAnimation", "UIPAnimation\UIPAnimation.vcproj", "{3F1E3C1B-94D4-41E8-BAE8-FA468C6502B0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A714BC06-47DA-4243-B45B-4C983CA56DF3} = {A714BC06-47DA-4243-B45B-4C983CA56DF3}
+		{4AF129A5-B8CC-49D7-850B-EB8B51450F17} = {4AF129A5-B8CC-49D7-850B-EB8B51450F17}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UIPControl", "UIPControl\UIPControl.vcproj", "{4AF129A5-B8CC-49D7-850B-EB8B51450F17}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A714BC06-47DA-4243-B45B-4C983CA56DF3} = {A714BC06-47DA-4243-B45B-4C983CA56DF3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Interpreter", "Interpreter\Interpreter.vcproj", "{46D13279-329F-4703-B488-0FDB35BDD092}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A714BC06-47DA-4243-B45B-4C983CA56DF3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A714BC06-47DA-4243-B45B-4C983CA56DF3}.Debug|Win32.Build.0 = Debug|Win32
+		{A714BC06-47DA-4243-B45B-4C983CA56DF3}.Release|Win32.ActiveCfg = Release|Win32
+		{A714BC06-47DA-4243-B45B-4C983CA56DF3}.Release|Win32.Build.0 = Release|Win32
+		{D8C74B93-F31B-424F-8C9F-CF00E496C1BA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D8C74B93-F31B-424F-8C9F-CF00E496C1BA}.Debug|Win32.Build.0 = Debug|Win32
+		{D8C74B93-F31B-424F-8C9F-CF00E496C1BA}.Release|Win32.ActiveCfg = Release|Win32
+		{D8C74B93-F31B-424F-8C9F-CF00E496C1BA}.Release|Win32.Build.0 = Release|Win32
+		{7C18D6CC-8490-47BD-BFBA-5BD4E7E3F969}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C18D6CC-8490-47BD-BFBA-5BD4E7E3F969}.Debug|Win32.Build.0 = Debug|Win32
+		{7C18D6CC-8490-47BD-BFBA-5BD4E7E3F969}.Release|Win32.ActiveCfg = Release|Win32
+		{7C18D6CC-8490-47BD-BFBA-5BD4E7E3F969}.Release|Win32.Build.0 = Release|Win32
+		{3F1E3C1B-94D4-41E8-BAE8-FA468C6502B0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F1E3C1B-94D4-41E8-BAE8-FA468C6502B0}.Debug|Win32.Build.0 = Debug|Win32
+		{3F1E3C1B-94D4-41E8-BAE8-FA468C6502B0}.Release|Win32.ActiveCfg = Release|Win32
+		{3F1E3C1B-94D4-41E8-BAE8-FA468C6502B0}.Release|Win32.Build.0 = Release|Win32
+		{4AF129A5-B8CC-49D7-850B-EB8B51450F17}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4AF129A5-B8CC-49D7-850B-EB8B51450F17}.Debug|Win32.Build.0 = Debug|Win32
+		{4AF129A5-B8CC-49D7-850B-EB8B51450F17}.Release|Win32.ActiveCfg = Release|Win32
+		{4AF129A5-B8CC-49D7-850B-EB8B51450F17}.Release|Win32.Build.0 = Release|Win32
+		{46D13279-329F-4703-B488-0FDB35BDD092}.Debug|Win32.ActiveCfg = Debug|Win32
+		{46D13279-329F-4703-B488-0FDB35BDD092}.Debug|Win32.Build.0 = Debug|Win32
+		{46D13279-329F-4703-B488-0FDB35BDD092}.Release|Win32.ActiveCfg = Release|Win32
+		{46D13279-329F-4703-B488-0FDB35BDD092}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

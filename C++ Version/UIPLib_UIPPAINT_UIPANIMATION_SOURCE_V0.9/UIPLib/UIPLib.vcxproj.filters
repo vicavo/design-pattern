@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source\Container_适配_迭代_策略_装饰">
+      <UniqueIdentifier>{47831368-9d31-4c2e-9af0-a074d6b094b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\EventSystem_观察者">
+      <UniqueIdentifier>{e1308008-d2a7-41ee-9209-e96157b30bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ControlSystem_组合">
+      <UniqueIdentifier>{e04d7b3e-035d-4dc6-9f7a-7b623dd720cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\RenderSystem_工厂">
+      <UniqueIdentifier>{3854ec14-ea9c-4b8d-bf57-63ecc56568c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Application_单例_模板方法">
+      <UniqueIdentifier>{fe426998-1650-48fb-87f5-cb4cf3f284f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Misc">
+      <UniqueIdentifier>{87e131bc-c705-436f-903b-c53e7062df4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArrayIterator.h">
+      <Filter>Source\Container_适配_迭代_策略_装饰</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayList.h">
+      <Filter>Source\Container_适配_迭代_策略_装饰</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator.h">
+      <Filter>Source\Container_适配_迭代_策略_装饰</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Source\Container_适配_迭代_策略_装饰</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeIterator.h">
+      <Filter>Source\Container_适配_迭代_策略_装饰</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem.h">
+      <Filter>Source\EventSystem_观察者</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyEvent.h">
+      <Filter>Source\EventSystem_观察者</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseEvent.h">
+      <Filter>Source\EventSystem_观察者</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEvent.h">
+      <Filter>Source\EventSystem_观察者</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlBase.h">
+      <Filter>Source\ControlSystem_组合</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlManager.h">
+      <Filter>Source\ControlSystem_组合</Filter>
+    </ClInclude>
+    <ClInclude Include="GDIRender2D.h">
+      <Filter>Source\RenderSystem_工厂</Filter>
+    </ClInclude>
+    <ClInclude Include="IRender2D.h">
+      <Filter>Source\RenderSystem_工厂</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Source\Application_单例_模板方法</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Source\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilHelper.h">
+      <Filter>Source\Misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ControlBase.cpp">
+      <Filter>Source\ControlSystem_组合</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderImageManager.cpp">
+      <Filter>Source\RenderSystem_工厂</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source\Application_单例_模板方法</Filter>
+    </ClCompile>
+    <ClCompile Include="UtilHelper.cpp">
+      <Filter>Source\Misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UIPLib.cd" />
+  </ItemGroup>
+</Project>

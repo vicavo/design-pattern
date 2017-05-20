@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MyApp" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAABAAAAAAAAwEAEEAAABAEAAAAgAAAAAAAAA=</HashCode>
+      <FileName>MyApplication.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFacadeMediator" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IGAhIEBBBCAABABAAAAAEBEhEABoEQABFAACAAEAClA=</HashCode>
+      <FileName>Mediator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShapeBase" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAABIgEAABBoEAAAAACAgAAAEACAAKAAAAQIQAIIACA=</HashCode>
+      <FileName>Shape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRectShape" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACABAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCircleShape" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEABAAAAABBIAAAAAAAAAAIAIIAAAAAAAAAAAAiCAAA=</HashCode>
+      <FileName>Shape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTriangleShape" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABIAAAABAAAAAAAAAAAAAAAAACAAgAAQAAAAAAAAA=</HashCode>
+      <FileName>Shape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShapeManager" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAIABAAAAAAAAAgAAAAAAAAAAAAAAAVgACAAAAAEA=</HashCode>
+      <FileName>Shape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChainBase" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAAAAAAAAIAEACAAAAAAAAAAQAAgAAAAAAAAQ=</HashCode>
+      <FileName>ResponsibleChain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEndChain" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>ResponsibleChain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CControlHelpChain" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAIAAAAAAAABAAAAACAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>ResponsibleChain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStateBase" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAACAAAAABAAAAAAEAAAAIAAAACAAAA=</HashCode>
+      <FileName>StateManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRectState" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StateManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCircleState" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StateManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTriangleState" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StateManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFillState" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAA=</HashCode>
+      <FileName>StateManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStateManager" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAEAAAAAAAABABAAgEAAgAAIgMAAAAgAAAAAACAA=</HashCode>
+      <FileName>StateManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShapeCreateCommand" Collapsed="true">
+    <Position X="5.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBAQAAAggAAAAAAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>ShapeOperatorCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICommand" Collapsed="true">
+    <Position X="5.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAABAQAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UndoManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUndoManager" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQTAABIAABAAAAAAAAAEBAAAAAAABAAEAAAEAAAA=</HashCode>
+      <FileName>UndoManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDrawerVisitor" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CInOutCtrlManager" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAEAAAAAAABAAAABAAAgAAAAAAAgAABAAAAQAQAA=</HashCode>
+      <FileName>InOutCtrlManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="CAppKeyEvent" Collapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAQAAACAA=</HashCode>
+      <FileName>AppKeyEvent.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="CAppKeyEventDispatcher" Collapsed="true">
+    <Position X="10" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AppKeyEvent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CAppKeyEventListener" Collapsed="true">
+    <Position X="11.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AppKeyEvent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ICommandPtr" Collapsed="true">
+    <Position X="13.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UndoManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="EIconButtonType" Collapsed="true">
+    <Position X="10" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAAAAAAAAAAAAAAAAEAAAAAAAAAAACAABAAAA=</HashCode>
+      <FileName>Enum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>

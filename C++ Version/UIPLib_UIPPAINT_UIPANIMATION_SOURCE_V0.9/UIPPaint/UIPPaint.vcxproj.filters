@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EntryPoint">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source\门面_中间者">
+      <UniqueIdentifier>{8c29f8be-8bf7-4020-b6fa-e48cf7d6e73c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\显示图元">
+      <UniqueIdentifier>{5589b497-b1d3-45f8-837f-e593562be0a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\职责链">
+      <UniqueIdentifier>{c795d2f5-4315-4a83-aff5-67983dc33113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\状态">
+      <UniqueIdentifier>{d49d2924-593f-4053-9aec-47f8d1898968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\命令">
+      <UniqueIdentifier>{ceadfeaa-d0e5-431a-919e-cbaddcf9dceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\访问者">
+      <UniqueIdentifier>{7879abd3-0031-4982-8169-509239b89f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\输入输出">
+      <UniqueIdentifier>{528b2448-278e-4d2a-9dec-eb49bf2955f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppKeyEvent.h">
+      <Filter>EntryPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="MyApplication.h">
+      <Filter>EntryPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediator.h">
+      <Filter>Source\门面_中间者</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Source\显示图元</Filter>
+    </ClInclude>
+    <ClInclude Include="ResponsibleChain.h">
+      <Filter>Source\职责链</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>Source\状态</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeOperatorCommand.h">
+      <Filter>Source\命令</Filter>
+    </ClInclude>
+    <ClInclude Include="UndoManager.h">
+      <Filter>Source\命令</Filter>
+    </ClInclude>
+    <ClInclude Include="Visitor.h">
+      <Filter>Source\访问者</Filter>
+    </ClInclude>
+    <ClInclude Include="InOutCtrlManager.h">
+      <Filter>Source\输入输出</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>EntryPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediator.cpp">
+      <Filter>Source\门面_中间者</Filter>
+    </ClCompile>
+    <ClCompile Include="ResponsibleChain.cpp">
+      <Filter>Source\职责链</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>Source\状态</Filter>
+    </ClCompile>
+    <ClCompile Include="Visitor.cpp">
+      <Filter>Source\访问者</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source\桥接模式">
+      <UniqueIdentifier>{9bf2f734-5e6a-46c0-8811-beef5a3f8a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\享元_备忘录模式">
+      <UniqueIdentifier>{880c7913-0893-48c6-ae51-886190a29ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EntryPoint">
+      <UniqueIdentifier>{c62573a9-e84a-4f58-a744-7dc4475cb1a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ISprite.cpp">
+      <Filter>Source\桥接模式</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>EntryPoint</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ISprite.h">
+      <Filter>Source\桥接模式</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationControler.h">
+      <Filter>Source\享元_备忘录模式</Filter>
+    </ClInclude>
+    <ClInclude Include="MyAppAnimation.h">
+      <Filter>EntryPoint</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
